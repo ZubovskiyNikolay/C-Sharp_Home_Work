@@ -77,13 +77,13 @@
 // 5 -> 2, 4
 // 8 -> 2, 4, 6, 8
 
-Console.WriteLine("Введите число");
-int num=Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите число");
+// int num=Convert.ToInt32(Console.ReadLine());
 
-int count=2;
+// int count=2;
 
-while (count<=num)
-{
-  Console.Write(count+" ");
-  count=count+2;
-}
+// while (count<=num)
+// {
+//   Console.Write(count+" ");
+//   count=count+2;
+// }
