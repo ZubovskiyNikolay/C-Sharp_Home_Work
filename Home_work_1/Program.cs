@@ -16,8 +16,10 @@ if (num1==num2)
 else if (num1>num2)
 {
   Console.WriteLine("Большее число - "+num1);
+  Console.WriteLine("Меньшее число - "+num2);
 }
 else
 {
   Console.WriteLine("Большее число - "+num2);
+  Console.WriteLine("Меньшее число - "+num1);
 }
