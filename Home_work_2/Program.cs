@@ -17,3 +17,19 @@
 // 645 -> 5
 // 78 -> третьей цифры нет
 // 32679 -> 6
+
+Console.WriteLine("Введите трехзначное число");
+int num=Convert.ToInt32(Console.ReadLine());
+if (num>=100)
+{
+  while (num>=1000)
+  {
+    num=num/10;
+  }
+  int third_num=num%10;
+  Console.WriteLine("Третья цифра числа - "+third_num);
+}
+else
+{
+  Console.WriteLine("Третьей цифры нет");
+}
