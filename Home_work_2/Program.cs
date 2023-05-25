@@ -4,3 +4,10 @@
 // 456 -> 5
 // 782 -> 8
 // 918 -> 1
+
+Console.WriteLine("Введите трехзначное число");
+int num=Convert.ToInt32(Console.ReadLine());
+
+int second_num=(num/10)%10;
+Console.WriteLine("Вторая цифра числа - "+second_num);
+
