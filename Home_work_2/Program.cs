@@ -18,18 +18,25 @@
 // 78 -> третьей цифры нет
 // 32679 -> 6
 
-Console.WriteLine("Введите трехзначное число");
-int num=Convert.ToInt32(Console.ReadLine());
-if (num>=100)
-{
-  while (num>=1000)
-  {
-    num=num/10;
-  }
-  int third_num=num%10;
-  Console.WriteLine("Третья цифра числа - "+third_num);
-}
-else
-{
-  Console.WriteLine("Третьей цифры нет");
-}
+// Console.WriteLine("Введите трехзначное число");
+// int num=Convert.ToInt32(Console.ReadLine());
+// if (num>=100)
+// {
+//   while (num>=1000)
+//   {
+//     num=num/10;
+//   }
+//   int third_num=num%10;
+//   Console.WriteLine("Третья цифра числа - "+third_num);
+// }
+// else
+// {
+//   Console.WriteLine("Третьей цифры нет");
+// }
+
+// ------------------------------------------Задача 3--------------------------
+
+// Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.
+// 6 -> да
+// 7 -> да
+// 1 -> нет
