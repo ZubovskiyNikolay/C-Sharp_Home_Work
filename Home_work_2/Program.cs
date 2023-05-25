@@ -40,3 +40,48 @@
 // 6 -> да
 // 7 -> да
 // 1 -> нет
+
+Console.WriteLine("Введите порядковый номер дня недели");
+int num=Convert.ToInt32(Console.ReadLine());
+if (num<=7)
+{
+if (num==6 | num==7)
+{
+  if (num==6)
+  {
+    Console.WriteLine("Это выходной день - Суббота");
+  }
+  else 
+  {
+    Console.WriteLine("Это выходной день - Воскресенье");
+  }
+}
+else
+{
+  Console.Write("Это будний рабочий день - ");
+  if (num==1)
+  {
+    Console.WriteLine("Понедельник");
+  }
+  else if (num==2)
+  {
+    Console.WriteLine("Вторник");
+  }
+  else if (num==3)
+  {
+    Console.WriteLine("Среда");
+  }
+  else if(num==4)
+  {
+    Console.WriteLine("Четверг");
+  }
+  else if (num==5)
+  {
+    Console.WriteLine("Пятница");
+  }
+}
+}
+else
+{
+  Console.WriteLine("Такого дня недели нет");
+}
